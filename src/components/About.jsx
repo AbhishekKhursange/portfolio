@@ -1,17 +1,17 @@
 import React from 'react';
 
 const FACTS = [
-  { icon: 'bi-geo-alt-fill',   label: 'Location',    value: 'Hyderabad, India' },
-  { icon: 'bi-envelope-fill',  label: 'Email',       value: 'abhishekkhursange139@gmail.com' },
-  { icon: 'bi-mortarboard',    label: 'Degree',      value: 'B.E. — E&TC Engineering' },
-  { icon: 'bi-building',       label: 'Training',    value: 'SathyaTech, Hyderabad' },
+  { icon: 'bi-geo-alt-fill', label: 'Location', value: 'Hyderabad, India' },
+  { icon: 'bi-envelope-fill', label: 'Email', value: 'abhishekkhursange139@gmail.com' },
+  { icon: 'bi-mortarboard', label: 'Degree', value: 'B.E. — E&TC Engineering' },
+  { icon: 'bi-building', label: 'Training', value: 'SathyaTech, Hyderabad' },
 ];
 
 const HIGHLIGHTS = [
-  { icon: 'bi-cpu',             title: 'Engineering Background',  desc: 'My E&TC degree gave me a strong foundation in logic, problem-solving, and analytical thinking — skills that directly translate to writing better software.' },
-  { icon: 'bi-layers',          title: 'Full Stack Trained',      desc: 'Completed an intensive Full Stack Java course covering Spring Boot, React, REST APIs, Microservices, and modern databases.' },
-  { icon: 'bi-rocket-takeoff',  title: 'Project-Driven Learning', desc: 'I learn by building. Every project in my portfolio was built from scratch to solve a real problem and explore new technologies.' },
-  { icon: 'bi-lightbulb',       title: 'Always Growing',          desc: 'Certified through Coursera and Udemy, I continuously upskill to stay current with industry best practices and trends.' },
+  { icon: 'bi-cpu', title: 'Engineering Background', desc: 'My E&TC degree gave me a strong foundation in logic, problem-solving, and analytical thinking — skills that directly translate to writing better software.' },
+  { icon: 'bi-layers', title: 'Full Stack Trained', desc: 'Completed an intensive Full Stack Java course covering Spring Boot, React, REST APIs, Microservices, and modern databases.' },
+  { icon: 'bi-rocket-takeoff', title: 'Project-Driven Learning', desc: 'I learn by building. Every project in my portfolio was built from scratch to solve a real problem and explore new technologies.' },
+  { icon: 'bi-lightbulb', title: 'Always Growing', desc: 'Certified through Coursera and Udemy, I continuously upskill to stay current with industry best practices and trends.' },
 ];
 
 export default function About() {
@@ -24,8 +24,11 @@ export default function About() {
           <div className="col-lg-5">
             <div className="about-photo-wrap">
               <div className="about-photo">
-                <i className="bi bi-person-fill" />
-                <span>Your Photo Here</span>
+                <img
+                  src="/AbhishekProfile.jpeg"
+                  alt="Abhishek Khursange"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
               </div>
               <div className="about-photo-bg" />
               <div className="about-open-badge">
