@@ -37,7 +37,7 @@ const PROJECTS = [
     tech: ['Microservices', 'React JS', 'PostgreSQL', 'Spring Boot', 'REST API'],
     highlights: ['Microservices architecture', 'Room booking flow', 'PostgreSQL schema'],
     github: 'https://github.com/AbhishekKhursange',
-    live: null,
+    live: 'https://luxstay-frontend.vercel.app',
   },
   {
     title: 'TalkMe AI',
