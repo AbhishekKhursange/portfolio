@@ -36,7 +36,7 @@ const PROJECTS = [
     icon: 'bi-building-fill',
     tech: ['Microservices', 'React JS', 'PostgreSQL', 'Spring Boot', 'REST API'],
     highlights: ['Microservices architecture', 'Room booking flow', 'PostgreSQL schema'],
-    github: 'https://github.com/AbhishekKhursange',
+    github: 'https://github.com/AbhishekKhursange/luxstay-frontend',
     live: 'https://luxstay-frontend.vercel.app',
   },
   {
@@ -48,7 +48,7 @@ const PROJECTS = [
     icon: 'bi-robot',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     highlights: ['Multiple-choice quizzes with instant scoring', 'Responsive UI with Bootstrap components', 'Dynamic question navigation & result summary'],
-    github: 'https://github.com/AbhishekKhursange',
+    github: 'https://github.com/AbhishekKhursange/QuizCraft',
     live: 'https://quiz-craft-jet.vercel.app',
   },
 ];
