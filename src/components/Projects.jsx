@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FILTERS = ['All', 'Full Stack', 'Microservices', 'AI'];
+const FILTERS = ['All', 'Full Stack', 'Microservices', 'Frontend Web Application'];
 
 const PROJECTS = [
   {
@@ -28,7 +28,7 @@ const PROJECTS = [
     live: 'https://order-management-frontend-sigma.vercel.app',
   },
   {
-    title: 'Hotel Management System',
+    title: 'LuxStay - Hotel Management System',
     desc: 'A microservices-based hotel management application handling room bookings, guest management, and billing. Built with a React frontend, PostgreSQL database, and independently deployable services.',
     category: 'Microservices',
     status: 'Completed',
@@ -40,16 +40,16 @@ const PROJECTS = [
     live: 'https://luxstay-frontend.vercel.app',
   },
   {
-    title: 'TalkMe AI',
-    desc: 'An AI-powered conversational agent built with a microservices architecture. Users can chat with an AI assistant through a clean React interface, with conversations managed via PostgreSQL and served through independent backend services.',
-    category: 'AI',
+    title: 'QuizCraft',
+    desc: 'An interactive quiz application that allows users to test their knowledge through multiple-choice questions with instant score calculation and a responsive user interface. Built using HTML, CSS, JavaScript, and Bootstrap.',
+    category: 'Frontend Web Application',
     status: 'Completed',
     color: '#7c3aed',
     icon: 'bi-robot',
-    tech: ['Microservices', 'React JS', 'PostgreSQL', 'AI Integration', 'REST API'],
-    highlights: ['AI chat integration', 'Microservices design', 'Conversation history'],
+    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    highlights: ['Multiple-choice quizzes with instant scoring', 'Responsive UI with Bootstrap components', 'Dynamic question navigation & result summary'],
     github: 'https://github.com/AbhishekKhursange',
-    live: null,
+    live: 'https://quiz-craft-jet.vercel.app',
   },
 ];
 
