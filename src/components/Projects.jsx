@@ -51,6 +51,30 @@ const PROJECTS = [
     github: 'https://github.com/AbhishekKhursange/QuizCraft',
     live: 'https://quiz-craft-jet.vercel.app',
   },
+  {
+    title: 'SolveMe',
+    desc: 'An interactive puzzle game that challenges users with engaging brain teasers, logic puzzles, and problem-solving challenges. Features multiple difficulty levels, responsive gameplay, score tracking, and a clean user interface built with React.js.',
+    category: 'Frontend Web Application',
+    status: 'Completed',
+    color: '#f59e0b',
+    icon: 'bi-puzzle-fill',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Bootstrap'],
+    highlights: ['Multiple-choice quizzes with instant scoring', 'Responsive UI with Bootstrap components', 'Dynamic question navigation & result summary'],
+    github: 'https://github.com/AbhishekKhursange/solveMe',
+    live: 'https://solveme-eight.vercel.app',
+  },
+  {
+    title: 'ReadMe',
+    desc: 'A full-stack online book discovery platform that allows users to browse, search, and explore books across multiple genres. Built with React, Spring Boot, PostgreSQL, REST APIs and Cloudinary for a responsive and seamless user experience.',
+    category: 'Frontend Web Application',
+    status: 'In Progress',
+    color: '#2563eb',
+    icon: 'bi-book-half',
+    tech: ['React JS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Cloudinary'],
+    highlights: ['Multiple-choice quizzes with instant scoring', 'Responsive UI with Bootstrap components', 'Dynamic question navigation & result summary'],
+    github: '',
+    live: '',
+  },
 ];
 
 const STATUS_STYLE = {
