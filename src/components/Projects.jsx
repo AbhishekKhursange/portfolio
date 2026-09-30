@@ -65,15 +65,19 @@ const PROJECTS = [
   },
   {
     title: 'ReadMe',
-    desc: 'A full-stack online book discovery platform that allows users to browse, search, and explore books across multiple genres. Built with React, Spring Boot, PostgreSQL, REST APIs and Cloudinary for a responsive and seamless user experience.',
-    category: 'Frontend Web Application',
+    desc: 'A full-stack illustrated storybook reading platform with JWT-based authentication, role-based admin access, and a book/volume/chapter content hierarchy for multi-part series. Features a custom animated page-flip reader, an admin dashboard for managing books and categories, and production-grade security including Redis-backed refresh tokens and API rate limiting. Built with React, Spring Boot, PostgreSQL, Redis, and Cloudinary.',
+    category: 'Full-Stack Web Application',
     status: 'In Progress',
     color: '#2563eb',
     icon: 'bi-book-half',
-    tech: ['React JS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Cloudinary'],
-    highlights: ['Multiple-choice quizzes with instant scoring', 'Responsive UI with Bootstrap components', 'Dynamic question navigation & result summary'],
-    github: '',
-    live: '',
+    tech: ['React JS', 'Spring Boot', 'PostgreSQL', 'Redis', 'REST API', 'Cloudinary', 'JWT'],
+    highlights: [
+      'JWT authentication with Redis-backed refresh tokens and role-based access control',
+      'Custom animated page-flip book reader with dynamic book/volume/chapter structure',
+      'Admin dashboard for managing books, categories, and users, with API rate limiting'
+    ],
+    github: 'https://github.com/AbhishekKhursange/readme-frontend',
+    live: 'https://readme-frontend-delta.vercel.app',
   },
 ];
 
